@@ -1,0 +1,21 @@
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias beep='echo -e "\a"'
+
+alias d='docker'
+alias dc='docker compose'
+alias dcu='docker compose up -d; beep'
+alias dcub='docker compose up -d --build; beep'
+alias dceab='docker compose exec app bash'
+alias dcefb='docker compose exec frontend bash'
+alias dcepb='docker compose exec puma bash'
+
+alias g='git'
+alias gcan='git commit --amend --no-edit'
+alias gst='git stash'
+alias gstp='git stash pop'
+alias gp-rdev='git stash; git pull --rebase origin develop'
+alias gf='git fetch'
+
